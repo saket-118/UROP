@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "urop"
+version = "0.1.0"
+description = ""
+authors = ["Madhav_Walia <madhavwalia8139@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipywidgets = "^8.0.2"
+numpy = "^1.23.5"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+nltk = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
